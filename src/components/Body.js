@@ -1,6 +1,5 @@
 // Importing the image
 import profileImage from 'url:../assets/images/bright_profile.jpg';
-
 const Body = ()=>{
     // Using URL constructor for optimization
     const imageUrl = new URL(`${profileImage}?width=640&quality=75`, import.meta.url);
