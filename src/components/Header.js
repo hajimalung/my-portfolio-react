@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Header = ()=>{
     return (
     <div className="app-header">
@@ -5,15 +7,15 @@ const Header = ()=>{
             <div className="web-dev-icon">
                 <div className="web-dev-icon-header">
                 </div>
-                <div className="web-dev-icon-body"> &lt; / &gt; </div>
+                <div className="web-dev-icon-body"> &lt;&nbsp; / &gt; </div>
             </div>
-            &nbsp; <b className="hero-text">Hajimalung Baba</b> &nbsp; - UI Engineer
+            &nbsp; <Link to={"/"} className="hero-text">Hajimalung Baba</Link> &nbsp; UI Engineer
         </div>
         <div className="app-header-right">
             <ul className="navbar">
-                <li className="nav-item">Resume</li>
-                <li className="nav-item">Project</li>
-                <li className="nav-item">Contact</li>
+                <Link to={"/resume"} className="nav-item">Resume</Link>
+                <Link to={"/projects"} className="nav-item">Projects</Link>
+                <Link to={"/contact"} className="nav-item">Contact</Link>
             </ul>
         </div>
     </div>);
