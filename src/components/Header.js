@@ -1,5 +1,8 @@
 const Header = ()=>{
-    return (<>Header Works!</>);
+    return (
+    <div className="app-header">
+        Header Works!
+    </div>);
 }
 
 export default Header;
