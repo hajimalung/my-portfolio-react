@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This is a react web project to showcase Hajimalung Baba profile",
   "scripts": {
+    "start": "rm -rf .parcel-cache && parcel index.html",
     "test": "jest"
   },
   "keywords": [
