@@ -1,4 +1,5 @@
 // Importing the image
+import { Link } from 'react-router-dom';
 import profileImage from 'url:../assets/images/bright_profile.jpg';
 const Body = ()=>{
     // Using URL constructor for optimization
@@ -20,9 +21,9 @@ const Body = ()=>{
                 Dynamic Senior UI Software Engineer with almost 9 years of experience in crafting intuitive, high-performance user interfaces. A proven leader in optimizing application performance and providing user-centered solutions that boost engagement and satisfaction, backed by a strong foundation in UX/UI design principles. Committed to innovation and continuous improvement.
                 </span>
                 <div className='round-navs-container'>
-                    <div className='round-nav-item'>Resume</div>
-                    <div className='round-nav-item'>Projects</div>
-                    <div className='round-nav-item'>Contact</div>
+                    <Link to={"/resume"} className='round-nav-item'>Resume</Link>
+                    <Link to={"/projects"} className='round-nav-item'>Projects</Link>
+                    <Link to={"/contact"} className='round-nav-item'>Contact</Link>
                 </div>
             </div>
         </div>)

@@ -114,6 +114,7 @@ body{
     box-shadow: #0b4f6c 0px 0px 0px 3px;
     cursor: pointer;
     color: #0b4f6c;
+    text-decoration: none;
 }
 .round-nav-item:hover{
     transform: scale(1.1);
