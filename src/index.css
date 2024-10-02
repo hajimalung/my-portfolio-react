@@ -65,4 +65,21 @@ body{
 }
 .app-body{
     height: calc(100% - 60px);
+    display: flex;
+}
+.body-left{
+    flex: 1;
+    text-align: end;
+    padding: 5px;
+}
+.body-right{
+    flex: 1;
+    padding: 5px;
+}
+.profile-image{
+    width: 480px;
+    height: 480px;
+    border-radius: 480px;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
 }
