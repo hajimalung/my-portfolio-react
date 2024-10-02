@@ -1,5 +1,7 @@
 import linkedinLogo from "url:../assets/icons/LinkedIn.svg";
 import gitHubProfileLogoLink from "url:../assets/icons/GitHub.svg"
+import { LINKEDIN_PROFILE_URL, GItHUB_PROFILE_URL, EMAIL_ID } from "../utils/constants";
+
 
 const Footer=()=>{
     
@@ -14,11 +16,18 @@ const Footer=()=>{
         </div>
         <div className="footer-card">
             <h3>Email</h3>
-            <p> hajimalungbaba.786@gmail.com</p>
+            <a className="email-link-style" href={"mailto:"+EMAIL_ID}>{EMAIL_ID}</a>
         </div>
         <div className="footer-card">
             <h3>Follow me</h3>
-            <div> <img className="footer-social-link" src={linkedInUrl}></img> <img className="footer-social-link" src={githubLogoUrl}></img> </div>
+            <div>
+                <a href={LINKEDIN_PROFILE_URL} target="_blank"> 
+                    <img className="footer-social-link" src={linkedInUrl} /> 
+                </a> 
+                <a href={GItHUB_PROFILE_URL} target="_blank"> 
+                    <img className="footer-social-link" src={githubLogoUrl} /> 
+                </a>  
+            </div>
         </div>
     </div>);
 }
