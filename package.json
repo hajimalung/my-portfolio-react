@@ -1,10 +1,14 @@
 {
   "name": "my-portfolio-react",
+  "homepage": "https://hajimalung.github.io/my-portfolio-react",
   "version": "1.0.0",
   "description": "This is a react web project to showcase Hajimalung Baba profile",
   "scripts": {
     "start": "rm -rf .parcel-cache && parcel index.html",
-    "test": "jest"
+    "build": "parcel build index.html",
+    "test": "jest",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [
     "Hajimalung",
@@ -14,6 +18,7 @@
   "author": "Hajimalung Baba",
   "license": "ISC",
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "parcel": "^2.12.0",
     "process": "^0.11.10"
   },
