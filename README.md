@@ -26,3 +26,8 @@
 - If you make changes to your code, repeat the build and deploy steps using:
   `  npm run build
 npm run deploy`
+
+## deployed using google firebase
+
+Project Console: https://console.firebase.google.com/project/hajimalung-77d29/overview
+Hosting URL: https://hajimalung-77d29.web.app
