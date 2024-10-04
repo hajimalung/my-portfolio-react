@@ -8,6 +8,24 @@ import Resume from "./components/Resume";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyDEhZk1wYRKrkqy7iaiEqUCz8MUhrJlJqo",
+  authDomain: "hajimalung-77d29.firebaseapp.com",
+  projectId: "hajimalung-77d29",
+  storageBucket: "hajimalung-77d29.appspot.com",
+  messagingSenderId: "497406756643",
+  appId: "1:497406756643:web:9922f550235cec37f42e96"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
 
 const App = ()=>{
     return (

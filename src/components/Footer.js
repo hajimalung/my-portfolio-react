@@ -1,5 +1,6 @@
 import linkedinLogo from "url:../assets/icons/LinkedIn.svg";
 import gitHubProfileLogoLink from "url:../assets/icons/GitHub.svg"
+import firebaseLogo from "url:../assets/icons/Firebase.svg";
 import { LINKEDIN_PROFILE_URL, GItHUB_PROFILE_URL, EMAIL_ID } from "../utils/constants";
 
 
@@ -28,6 +29,10 @@ const Footer=()=>{
                     <img className="footer-social-link" src={githubLogoUrl} /> 
                 </a>  
             </div>
+        </div>
+        <div className="footer-card right">
+            <h3>Hosted on</h3>
+            <img src={firebaseLogo} alt="powered by logo" className="footer-social-link right" />
         </div>
     </div>);
 }

@@ -146,3 +146,8 @@ body{
     color: inherit;
     text-decoration: none;
 }
+.right{
+    text-align: end;
+    margin-right: 0px;
+    margin-left: 10px;
+}
