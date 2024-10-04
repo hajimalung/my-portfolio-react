@@ -187,3 +187,21 @@ body{
     margin: 0px;
     margin-bottom: 10px;
 }
+.contact-card{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+.contact-card-wrapper > h2{
+    margin-top: 0px;
+}
+.contact-form{
+    flex: 1;
+}
+.input-card{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 50%;
+    margin-bottom: 15px;
+}
