@@ -86,4 +86,6 @@ export const ResumeData = [
                 "Contributed to Corporate connect application in the suite of Employee Self Service.Responsibilities here includes: Listing the events and leadership."
             ]
         }]
-  }]
+  },
+  { name:"Education" },
+  { name:"Skills & Experties" }]
