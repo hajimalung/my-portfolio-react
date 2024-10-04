@@ -29,5 +29,9 @@ npm run deploy`
 
 ## deployed using google firebase
 
+- `firebase login`
+- `firebase init`
+- `firebase deploy`
+
 Project Console: https://console.firebase.google.com/project/hajimalung-77d29/overview
 Hosting URL: https://hajimalung-77d29.web.app
