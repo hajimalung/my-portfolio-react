@@ -31,7 +31,9 @@ const App = ()=>{
     return (
         <div className="app-container">
             <Header />
-            <Outlet />
+            <div className="body-container">
+                <Outlet />
+            </div>
             <Footer />
         </div>);
 }

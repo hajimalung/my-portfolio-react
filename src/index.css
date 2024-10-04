@@ -69,7 +69,7 @@ body{
     border:none;
 }
 .app-body{
-    height: calc(100% - 240px);
+    min-height: 680px;
     display: flex;
 }
 .body-left{
@@ -125,7 +125,7 @@ body{
     padding: 5px;
     border-top: 1px solid #c7c7c7;
     width: 90%;
-    position: absolute;
+    position: relative;
     left: 5%;
     bottom: 0px;
     display: flex;
@@ -150,4 +150,40 @@ body{
     text-align: end;
     margin-right: 0px;
     margin-left: 10px;
+}
+.body-container{
+    display: flex;
+    justify-content: center;
+}
+.body-wrapper{
+    border-radius: 10px;
+    width: 90%;
+    padding: 20px;
+}
+.res-section{
+    display: flex;
+    justify-content: space-between;
+}
+.section-content-wrapper{
+    width: 70%; 
+    display: flex;
+    flex-direction: column;
+}
+.section-content{
+    width:100%;
+    display: flex;
+    margin-bottom: 12px;
+}
+.section-content-header{
+    width: 200px;
+    margin: 0px;
+    text-align: end;
+    padding-right: 24px;
+}
+.section-content-text{
+    flex: 2;
+}
+.section-content-text > h3 {
+    margin: 0px;
+    margin-bottom: 10px;
 }
