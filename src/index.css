@@ -205,3 +205,11 @@ body{
     width: 50%;
     margin-bottom: 15px;
 }
+.app-body, .body-wrapper {
+    opacity: 1;
+    animation: fade 2s linear;
+}
+@keyframes fade {
+  0% { opacity: 0 }
+  100% { opacity: 1 }
+}
