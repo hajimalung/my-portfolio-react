@@ -1,6 +1,5 @@
 export const ResumeData = [
-    {
-        name : "Work Experience",
+    {name : "Work Experience",
         sub_sections :[
         {
             timeline : "16/05/2022 to Present",
@@ -87,5 +86,28 @@ export const ResumeData = [
             ]
         }]
   },
-  { name:"Education" },
+  { name:"Education", 
+    sub_sections:[{
+        timeline:"2012 to 2016",
+        content_header:"B.Tech [ Computer Science and Engineering ] ",
+        content_description:[
+            "Studied Bachelors in Computer Science and Enginnering at Vardhaman College of Engineering",
+            "Scored 69.98% which is equal to ~7 CGPA"
+        ]
+    },{
+        timeline: "2010 to 2012",
+        content_header:"Intermediate Education [10+ - Maths, Physics and Chemistry]",
+        content_description:[
+            "pursued 11th and 12th standard education with Maths, Physics and Chemistry as major subjects at SVKR mdl, co operative Jr. College.",
+            "Scored 86.5% which is equal to 8.65 CGPA"
+        ]
+    },{
+        timeline: "2008 to 2010",
+        content_header: "Secondary school education [ 8th to 10th schooling ]",
+        content_description:[
+            "Studied Higher school education at Sai krupa vidya mandir in Nagarkurnool",
+            "Secured 89% which is equal to 8.9 CGPA"
+        ]
+    }]
+   },
   { name:"Skills & Experties" }]
